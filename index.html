@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ===== SEO ===== -->
+  <!-- REPLACE: Update the title, description, and canonical URL with your real domain -->
+  <title>Finn Formato — Founder of Focal Media | Website Designer for Local Businesses</title>
+  <meta name="description" content="Finn Formato is a website designer and founder of Focal Media, helping local businesses build modern websites, improve their online presence, and generate more leads." />
+  <meta name="keywords" content="Finn Formato, Finn Formato Focal Media, Finn Formato website designer, Focal Media founder, Focal Media website designer, local business website design, website designer" />
+  <meta name="author" content="Finn Formato" />
+  <link rel="canonical" href="https://finnformato.com" /> <!-- REPLACE: Your domain -->
+
+  <!-- ===== Open Graph / Social ===== -->
+  <!-- REPLACE: Update og:url and og:image with your real domain and OG image -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Finn Formato — Founder of Focal Media | Website Designer" />
+  <meta property="og:description" content="Finn Formato is a website designer and founder of Focal Media, helping local businesses build modern websites and generate more leads." />
+  <meta property="og:url" content="https://finnformato.com" />
+  <meta property="og:image" content="https://finnformato.com/assets/og-image.jpg" /> <!-- REPLACE: Create and upload an OG image (1200x630px) -->
+  <meta property="og:site_name" content="Finn Formato" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Finn Formato — Website Designer | Founder of Focal Media" />
+  <meta name="twitter:description" content="Helping local businesses build modern websites and generate more leads." />
+  <meta name="twitter:image" content="https://finnformato.com/assets/og-image.jpg" /> <!-- REPLACE -->
+
+  <!-- ===== Fonts ===== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- ===== JSON-LD Schema ===== -->
+  <!-- REPLACE: Update all URLs below with your real domains and social profile URLs -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://finnformato.com/#finn",
+        "name": "Finn Formato",
+        "url": "https://finnformato.com",
+        "jobTitle": "Website Designer & Founder",
+        "worksFor": { "@id": "https://focalmedia.agency/#organization" },
+        "foundedOrganization": { "@id": "https://focalmedia.agency/#organization" },
+        "description": "Finn Formato is a website designer and founder of Focal Media, helping local businesses build modern websites, improve their online presence, and generate more leads.",
+        "sameAs": [
+          "https://focalmedia.agency"
+        ]
+      },
+      {
+        "@type": "Organization",
+        "@id": "https://focalmedia.agency/#organization",
+        "name": "Focal Media",
+        "url": "https://focalmedia.agency",
+        "founder": { "@id": "https://finnformato.com/#finn" },
+        "description": "Focal Media is a website design and digital marketing company helping local businesses build professional websites, improve their online presence, and generate more leads.",
+        "knowsAbout": ["Website Design", "Local SEO", "Lead Generation", "Digital Marketing", "Web Development"]
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- =============================================
+       NAVIGATION
+       ============================================= -->
+  <nav class="nav" id="nav">
+    <div class="nav-inner">
+      <a class="nav-logo" href="#hero">Finn Formato</a>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#focal-media">Focal Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- REPLACE href: Your Focal Media website URL -->
+      <a href="https://focalmedia.agency" target="_blank" rel="noopener" class="btn btn-primary btn-sm nav-cta">
+        Visit Focal Media
+      </a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <div class="nav-mobile" id="navMobile">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#focal-media">Focal Media</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <!-- REPLACE href: Your Focal Media website URL -->
+      <a href="https://focalmedia.agency" target="_blank" rel="noopener" class="btn btn-primary">Visit Focal Media</a>
+    </div>
+  </nav>
+
+  <!-- =============================================
+       HERO
+       ============================================= -->
+  <section class="hero" id="hero">
+    <div class="hero-dots" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-eyebrow">
+          <span class="pulse-dot" aria-hidden="true"></span>
+          Founder of Focal Media
+        </div>
+        <h1 class="hero-name">Finn Formato</h1>
+        <p class="hero-role">Website Designer for Local Businesses</p>
+        <p class="hero-para">
+          I help local businesses build modern, professional websites and digital systems that make them look better online and turn more visitors into customers.
+        </p>
+        <div class="hero-btns">
+          <!-- REPLACE href: Your Focal Media website URL -->
+          <a href="https://focalmedia.agency" target="_blank" rel="noopener" class="btn btn-primary">Visit Focal Media</a>
+          <a href="#contact" class="btn btn-outline">Work With Me</a>
+        </div>
+      </div>
+
+      <!-- Hero floating card -->
+      <div class="hero-card" aria-label="Services overview">
+        <p class="hero-card-label">What I Build</p>
+        <div class="hero-card-rule"></div>
+        <ul class="hero-card-list">
+          <li><span class="svc-dot" aria-hidden="true"></span>Website Design</li>
+          <li><span class="svc-dot" aria-hidden="true"></span>Website Redesign</li>
+          <li><span class="svc-dot" aria-hidden="true"></span>Local SEO</li>
+          <li><span class="svc-dot" aria-hidden="true"></span>Lead Generation</li>
+          <li><span class="svc-dot" aria-hidden="true"></span>AI Receptionist</li>
+          <li><span class="svc-dot" aria-hidden="true"></span>Review Systems</li>
+        </ul>
+        <div class="hero-card-rule"></div>
+        <div class="hero-card-footer">
+          <span class="hero-card-brand">Focal Media</span>
+          <span class="hero-card-sub">Website Design for Local Business</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       ABOUT
+       ============================================= -->
+  <section class="section section-ice" id="about">
+    <div class="container about-inner">
+      <div class="about-text">
+        <p class="eyebrow">About</p>
+        <h2>Built for the businesses that build your community.</h2>
+        <p>
+          I'm Finn Formato — the founder of <strong>Focal Media</strong>, a web design company built specifically for local businesses. I started Focal Media because I saw a gap: too many great local businesses were losing customers online simply because their websites didn't reflect the quality of their work.
+        </p>
+        <p>
+          I work with auto shops, detailing services, contractors, home service companies, and other local businesses that need a stronger online presence. My focus is building clean, fast, mobile-friendly websites that help businesses look more professional, rank better on Google, and convert more visitors into paying customers.
+        </p>
+        <p>
+          If your business deserves a better website, let's make it happen.
+        </p>
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+      </div>
+      <div class="about-stats">
+        <div class="stat-card">
+          <div class="stat-val">Local</div>
+          <div class="stat-lbl">Business Focused</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-val">7+</div>
+          <div class="stat-lbl">Services Offered</div>
+        </div>
+<div class="stat-card">
+          <div class="stat-val">SEO</div>
+          <div class="stat-lbl">Built Into Every Site</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       SERVICES
+       ============================================= -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">What I Do</p>
+        <h2>Services for local businesses that want to grow online.</h2>
+      </div>
+      <div class="services-grid">
+
+        <div class="svc-card">
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Website Design</h3>
+          <p>Custom websites built from the ground up — clean, fast, mobile-optimized, and designed to convert visitors into customers.</p>
+        </div>
+
+        <div class="svc-card">
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21.5 2v6h-6"/><path d="M2.5 22v-6h6"/><path d="M22 11.5A10 10 0 0 0 3.2 7.2M2 12.5a10 10 0 0 0 18.8 4.2"/></svg>
+          </div>
+          <h3>Website Redesign</h3>
+          <p>Transform an outdated or underperforming site into something modern and professional — without losing what's already working.</p>
+        </div>
+
+        <div class="svc-card">
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12"/></svg>
+          </div>
+          <h3>Website Management</h3>
+          <p>Ongoing updates, maintenance, and improvements so your site stays current, secure, and running smoothly every month.</p>
+        </div>
+
+        <div class="svc-card">
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          </div>
+          <h3>Local SEO</h3>
+          <p>Get found on Google by people searching for your services nearby. More local visibility means more calls, more leads, more business.</p>
+        </div>
+
+        <div class="svc-card">
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+          </div>
+          <h3>Google Review Systems</h3>
+          <p>Systems that make it effortless for happy customers to leave reviews — building social proof and improving your local ranking.</p>
+        </div>
+
+        <div class="svc-card">
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><line x1="9" y1="10" x2="15" y2="10"/><line x1="9" y1="14" x2="13" y2="14"/></svg>
+          </div>
+          <h3>AI Receptionist Setup</h3>
+          <p>Automate your lead intake with an AI that answers questions, qualifies prospects, and books appointments — 24 hours a day.</p>
+        </div>
+
+        <div class="svc-card svc-card--wide">
+          <div class="svc-icon">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/><polyline points="17 6 23 6 23 12"/></svg>
+          </div>
+          <h3>Lead Generation Systems</h3>
+          <p>Turn your website into a lead machine with optimized forms, strategic CTAs, and follow-up workflows that capture more business automatically.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOCAL MEDIA
+       ============================================= -->
+  <section class="section section-navy" id="focal-media">
+    <div class="container focal-inner">
+      <div class="focal-text">
+        <p class="eyebrow eyebrow-light">My Company</p>
+        <h2>Focal Media</h2>
+        <p class="focal-tag">Website Design &amp; Digital Marketing for Local Businesses</p>
+        <p>
+          Focal Media is the company I founded to help local businesses build a stronger presence online. We specialize in clean design, local SEO, and building digital systems that help businesses look more professional and generate more leads — without the agency markup or the runaround.
+        </p>
+        <p>
+          As the founder, I personally oversee every project. Your business isn't a ticket in a queue — it gets real attention from someone who actually cares about the outcome.
+        </p>
+        <!-- REPLACE href: Your Focal Media website URL -->
+        <a href="https://focalmedia.agency" target="_blank" rel="noopener" class="btn btn-white">Visit Focal Media →</a>
+      </div>
+      <div class="focal-card">
+        <!-- REPLACE: Swap the "FM" placeholder with your Focal Media logo -->
+        <!-- Example: <img src="assets/focal-media-logo.png" alt="Focal Media logo" class="focal-logo-img" /> -->
+        <div class="focal-logo-mark">FM</div>
+        <div class="focal-card-info">
+          <strong>Focal Media</strong>
+          <span>Founded by Finn Formato</span>
+          <span>Website Design · SEO · Lead Gen</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       WHY WORK WITH ME
+       ============================================= -->
+  <section class="section section-ice" id="why">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Why Work With Me</p>
+        <h2>What every project includes.</h2>
+      </div>
+      <div class="why-grid">
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <strong>Modern, Clean Design</strong>
+            <p>No templates. No clip art. Sites that look as professional as your business actually is.</p>
+          </div>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <strong>Built for Local Businesses</strong>
+            <p>I specialize in service businesses, trades, and local companies — not generic corporate sites.</p>
+          </div>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <strong>Fast Communication</strong>
+            <p>Real responses from a real person — not a ticket system or a week of silence waiting for updates.</p>
+          </div>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <strong>Clear Pricing</strong>
+            <p>No surprises. You'll know exactly what you're getting and what it costs before anything is signed.</p>
+          </div>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <strong>Mobile-First Websites</strong>
+            <p>Every site is built to look great on phones first — where most of your customers are searching from.</p>
+          </div>
+        </div>
+
+        <div class="why-card">
+          <div class="why-icon" aria-hidden="true">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+          </div>
+          <div>
+            <strong>Focused on Lead Generation</strong>
+            <p>A great website isn't just pretty — it's a tool. I design for conversions, not just compliments.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       CONTACT
+       ============================================= -->
+  <section class="section" id="contact">
+    <div class="container contact-wrap">
+      <div class="section-header">
+        <p class="eyebrow">Contact</p>
+        <h2>Let's work together.</h2>
+        <p class="section-sub">Ready to build something great for your business? Reach out and let's talk.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info">
+          <a href="mailto:finn@focalmedia.agency" class="contact-row">
+            <div class="contact-row-icon">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <span>finn@focalmedia.agency</span>
+          </a>
+        </div>
+        <div class="contact-cta-card">
+          <h3>Ready to get started?</h3>
+          <p>Send me a message and I'll get back to you within one business day.</p>
+          <a href="mailto:finn@focalmedia.agency" class="btn btn-primary">Get in Touch</a>
+          <!-- REPLACE href: Your Focal Media website URL -->
+          <a href="https://focalmedia.agency" target="_blank" rel="noopener" class="btn btn-outline">Visit Focal Media →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =============================================
+       FOOTER
+       ============================================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div>
+        <strong>Finn Formato</strong>
+        <!-- REPLACE href: Your Focal Media website URL -->
+        <span>Founder of <a href="https://focalmedia.agency" target="_blank" rel="noopener">Focal Media</a></span>
+      </div>
+      <span class="footer-copy">© 2025 Finn Formato. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
